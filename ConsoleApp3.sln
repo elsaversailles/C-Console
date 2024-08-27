@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.9.34723.18
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleApp3", "ConsoleApp3\ConsoleApp3.csproj", "{FA7CEBFE-126F-4E13-B3BF-D0F63FB0F0C3}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Debug|ARM32 = Debug|ARM32
+		Release|Any CPU = Release|Any CPU
+		Release|ARM32 = Release|ARM32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FA7CEBFE-126F-4E13-B3BF-D0F63FB0F0C3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FA7CEBFE-126F-4E13-B3BF-D0F63FB0F0C3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FA7CEBFE-126F-4E13-B3BF-D0F63FB0F0C3}.Debug|ARM32.ActiveCfg = Debug|ARM32
+		{FA7CEBFE-126F-4E13-B3BF-D0F63FB0F0C3}.Debug|ARM32.Build.0 = Debug|ARM32
+		{FA7CEBFE-126F-4E13-B3BF-D0F63FB0F0C3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FA7CEBFE-126F-4E13-B3BF-D0F63FB0F0C3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FA7CEBFE-126F-4E13-B3BF-D0F63FB0F0C3}.Release|ARM32.ActiveCfg = Release|ARM32
+		{FA7CEBFE-126F-4E13-B3BF-D0F63FB0F0C3}.Release|ARM32.Build.0 = Release|ARM32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {37EC0E2E-BB63-4F5E-AD96-6270D5E37FC8}
+	EndGlobalSection
+EndGlobal
