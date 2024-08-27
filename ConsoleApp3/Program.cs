@@ -1,4 +1,4 @@
-﻿/*
+/*
 string employeeName = ("Elsa Versailles");
 string address = ("Manila PH");
 string education = ("College");
@@ -22,9 +22,13 @@ Console.WriteLine("Age: " + age);
 int x = 1;
 int y = 1;
 Console.WriteLine(x + y);
-*/
 
 string input = Console.ReadLine();
 int exp = Convert.ToInt32(input);
 Console.WriteLine("You entered: " + (exp + 1));
+*/
+
+
+double expyr = Convert.ToDouble(Console.ReadLine());
+Console.WriteLine("Hi " + expyr);
 
