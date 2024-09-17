@@ -1,0 +1,28 @@
+using System;
+
+public class HelloWorld
+{
+    public static void Main(string[] args)
+    {
+    Console.WriteLine("Enter Prelim grades");
+    string prelim = Console.ReadLine();
+    double Prelim = double.Parse(prelim);
+    
+    Console.WriteLine("Enter midterm grade");
+    string midterm = Console.ReadLine();
+    double Midterm = double.Parse(midterm);
+    
+    Console.WriteLine("Enter Finals grade");
+    string finals = Console.ReadLine();
+    double Finals = double.Parse(finals);
+    
+    double Prelims2 = (0.30 * Prelim);
+    double Midterms2 = (0.30 * Midterm);
+    double Finals2 = (0.40 * Finals);
+    
+    Console.WriteLine("Semgrade");
+    double Final = (Prelims2 + Midterms2 + Finals2);
+    Console.WriteLine(Final);
+    
+    }
+}
