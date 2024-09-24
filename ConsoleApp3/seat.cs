@@ -12,6 +12,10 @@ namespace ConsoleApp3
             int evenCount = 0;
             int oddCount = 0;
 
+            if (userInput == 0)
+            {
+                System.Environment.Exit(1);
+            }
             if (userInput % 2 == 0)
             {
                 Console.WriteLine($"{userInput} is a multiple of 2.");
