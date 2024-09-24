@@ -11,6 +11,11 @@ namespace ConsoleApp3
 
             int evenCount = 0;
             int oddCount = 0;
+            
+            if (userInput <= -1 )
+            {
+                Console.WriteLine("Negative number not allowed");
+            }
 
             if (userInput == 0)
             {
